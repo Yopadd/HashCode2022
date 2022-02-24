@@ -1,0 +1,38 @@
+{
+  // Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
+  // Pointez pour afficher la description des attributs existants.
+  // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "command": "npm run build && npm run start:a",
+      "name": "Run npm start:a",
+      "request": "launch",
+      "type": "node-terminal"
+    },
+    {
+      "command": "npm run build && npm run start:b",
+      "name": "Run npm start:b",
+      "request": "launch",
+      "type": "node-terminal"
+    },
+    {
+      "command": "npm run build && npm run start:c",
+      "name": "Run npm start:c",
+      "request": "launch",
+      "type": "node-terminal"
+    },
+    {
+      "command": "npm run build && npm run start:d",
+      "name": "Run npm start:d",
+      "request": "launch",
+      "type": "node-terminal"
+    },
+    {
+      "command": "npm run build && npm run start:e",
+      "name": "Run npm start:e",
+      "request": "launch",
+      "type": "node-terminal"
+    }
+  ]
+}
